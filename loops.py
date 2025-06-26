@@ -83,9 +83,87 @@
 #   squares.append(square)
 # print("The list of squares is",squares)
  
-string="python loop"
-for s in string:
-  if s=="o":
-    print("if block")
-else:
-    print(s)
+# string="python loop"
+# for s in string:
+#   if s=="o":
+#     print("if block")
+# else:
+#     print(s)
+
+
+#for loop
+# i=int(input("enter the number:"))
+# rev=0
+# length = len(str(i))
+# for iterator in range(length):
+#    n=i%10
+#    rev=rev*10+n
+#    i=i//10
+# print(rev)
+
+# num= int(input("enter a number:"))
+# for i in range(1,num+1):
+#     if i%2==0:
+#         print(i)
+
+# num= int(input("enter a number:"))
+# for i in range(1,num+1):
+#     if i%2==0:
+#         print(i)
+
+# num= int(input("enter a number:"))
+# for i in range(1,num+1):
+#     if i%2==0:
+#         print(i)
+# 
+
+#pattern1
+# n=5
+# count=1
+# for i in range(0,n):
+#     for j in range(0,i+1):
+#         print(count,end=" ")
+#         count+=1
+#     print()    
+
+# n=5
+# for i in range(0,n):
+#     for j in range(0,n-i):
+#         print("* ",end="")
+#     print()
+    
+ #patter2
+# n=5
+# for i in range(0,n):
+#     for j in range(0,n-i):
+#         print(" ",end=" ")
+#     for k in range(0,i+1):
+#         print("*",end=" ")
+#     print()     
+
+#pattern3
+# n=5
+# for i in range(0,n):
+#     for j in range(0,n-i):
+#         print(" ",end="")
+#     for k in range(0,i+1):
+#         print("*",end=" ")
+#     print()
+
+#     #pattern4
+#     n=5 
+#     for i in range(0,n):
+#         for j in range(0,)
+ 
+# inverted right hand triangle
+n=6
+for i in range(1,n):
+    for j in range(0,i+1):
+        print(" ",end=" ")
+
+    for k in range(0,i+1):
+        print("*",end=" ")
+    print()
+
+
+
